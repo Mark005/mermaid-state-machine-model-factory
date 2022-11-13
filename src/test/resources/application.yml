@@ -1,0 +1,6 @@
+mermaid-statemachine:
+  settings:
+    schema:
+      state-configuration-config:
+        validate-unused-action-beans: warning
+        validate-states-without-action: warning
