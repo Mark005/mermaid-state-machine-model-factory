@@ -1,7 +1,7 @@
 package com.bmo.mermaidstatemachine.transition;
 
-import com.bmo.parsers.model.MermaidDiagram;
 import com.bmo.mermaidstatemachine.config.MermaidStateMachinesConfig.StateMachineConfig;
+import com.bmo.parsers.marmaiddiagram.model.MermaidDiagram;
 import java.util.List;
 import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;

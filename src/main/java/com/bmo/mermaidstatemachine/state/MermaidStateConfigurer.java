@@ -1,7 +1,7 @@
 package com.bmo.mermaidstatemachine.state;
 
-import com.bmo.parsers.model.MermaidDiagram;
 import com.bmo.mermaidstatemachine.config.MermaidStateMachinesConfig.StateMachineConfig;
+import com.bmo.parsers.marmaiddiagram.model.MermaidDiagram;
 import org.springframework.statemachine.config.model.StatesData;
 
 public interface MermaidStateConfigurer {
