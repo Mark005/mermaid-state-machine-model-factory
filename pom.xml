@@ -6,7 +6,7 @@
 
   <groupId>com.bmo</groupId>
   <artifactId>mermaid-state-machine-model-factory</artifactId>
-  <version>0.0.1</version>
+  <version>0.1.0</version>
 
   <name>mermaid-state-machine-model-factory</name>
   <description>mermaid-state-machine-model-factory</description>
@@ -14,7 +14,7 @@
   <properties>
     <java.version.source>8</java.version.source>
     <java.version.target>8</java.version.target>
-    <mermaid-parser.version>0.0.1</mermaid-parser.version>
+    <mermaid-parser.version>0.1.0</mermaid-parser.version>
     <spring-statemachine-core.version>3.2.0</spring-statemachine-core.version>
     <spring-boot.version>2.7.3</spring-boot.version>
     <lombok.version>1.18.24</lombok.version>

@@ -48,7 +48,7 @@ public class MermaidStateConfigurerImpl implements MermaidStateConfigurer {
         .map(diagramElement -> {
               StateData<String, String> stateData =
                   new StateData<>(diagramElement.getName());
-              stateData.setStateActions(getAction(diagramElement.getName()));
+              stateData.setEntryActions(getAction(diagramElement.getName()));
               stateData.setInitial(diagramElement.isInitial());
               stateData.setEnd(diagramElement.isEnd());
               return stateData;
