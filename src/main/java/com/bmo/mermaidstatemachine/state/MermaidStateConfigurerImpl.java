@@ -1,11 +1,11 @@
 package com.bmo.mermaidstatemachine.state;
 
-import com.bmo.parsers.model.DiagramElement;
-import com.bmo.parsers.model.MermaidDiagram;
 import com.bmo.mermaidstatemachine.config.MermaidStateMachinesConfig.StateConfigurationConfig;
 import com.bmo.mermaidstatemachine.config.MermaidStateMachinesConfig.StateMachineConfig;
 import com.bmo.mermaidstatemachine.config.MermaidStateMachinesConfig.ValidationLevel;
 import com.bmo.mermaidstatemachine.exception.MermaidStatemachineConfigurationException;
+import com.bmo.parsers.marmaiddiagram.model.DiagramElement;
+import com.bmo.parsers.marmaiddiagram.model.MermaidDiagram;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
@@ -48,7 +48,7 @@ public class MermaidStateConfigurerImpl implements MermaidStateConfigurer {
         .map(diagramElement -> {
               StateData<String, String> stateData =
                   new StateData<>(diagramElement.getName());
-              stateData.setStateActions(getAction(diagramElement.getName()));
+              stateData.setEntryActions(getAction(diagramElement.getName()));
               stateData.setInitial(diagramElement.isInitial());
               stateData.setEnd(diagramElement.isEnd());
               return stateData;

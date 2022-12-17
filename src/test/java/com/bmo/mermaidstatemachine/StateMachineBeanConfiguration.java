@@ -1,6 +1,5 @@
 package com.bmo.mermaidstatemachine;
 
-import com.bmo.mermaidstatemachine.MermaidStateMachineModelFactory;
 import com.bmo.mermaidstatemachine.state.MermaidStateConfigurer;
 import java.util.ArrayList;
 import lombok.RequiredArgsConstructor;

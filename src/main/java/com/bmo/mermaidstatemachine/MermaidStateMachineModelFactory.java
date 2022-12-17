@@ -1,11 +1,11 @@
 package com.bmo.mermaidstatemachine;
 
 import com.bmo.mermaidstatemachine.config.MermaidStateMachinesConfig;
-import com.bmo.parsers.FileDiagramParser;
-import com.bmo.parsers.model.MermaidDiagram;
 import com.bmo.mermaidstatemachine.config.MermaidStateMachinesConfig.StateMachineConfig;
 import com.bmo.mermaidstatemachine.state.MermaidStateConfigurer;
 import com.bmo.mermaidstatemachine.transition.MermaidTransitionConfigurer;
+import com.bmo.parsers.marmaiddiagram.model.MermaidDiagram;
+import com.bmo.parsers.marmaiddiagram.parser.FileDiagramParser;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
