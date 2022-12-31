@@ -6,7 +6,7 @@
 
   <groupId>com.bmo</groupId>
   <artifactId>mermaid-state-machine-model-factory</artifactId>
-  <version>0.1.0</version>
+  <version>1.0.0</version>
 
   <name>mermaid-state-machine-model-factory</name>
   <description>mermaid-state-machine-model-factory</description>
